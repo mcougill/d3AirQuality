@@ -20,18 +20,64 @@
 
 <body>
 
-    <!-- <nav class="navbar navbar-default">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img id="logo" src="img/logo.png"></a>      
-        </div>
-    </nav> -->
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">Air Quality Index</span>
+    </nav>
 
-    <!-- Bootstrap grid setup -->
-    <div class="container">
+    <div class="row">
+
+
         <div class="row">
-            <div id="chart-area"></div>
+            <div class="col-md-6" id="chart-area">
+
+            </div>
+            <div class="col-md-6">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">AQI</th>
+                            <th scope="col">Air Condition</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">0-50</th>
+                            <td>Good</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">51-100</th>
+                            <td>Moderate</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">101-150</th>
+                            <td>Unhealthy for Sensitive Groups</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">151-200</th>
+                            <td>Unhealthy</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">201-300</th>
+                            <td>Very Unhealthy</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">301-500</th>
+                            <td>Hazardous</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
         </div>
+
     </div>
+
 
     <!-- Load D3 -->
     <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -39,8 +85,8 @@
     <!-- Custom JS -->
     <script src="assets/javascript/main.js"></script>
 
-     <!-- Hide Keys -->
-     <script src="assets/javascript/config.js"></script>
+    <!-- Hide Keys -->
+    <script src="assets/javascript/config.js"></script>
 
 </body>
 

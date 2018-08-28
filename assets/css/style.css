@@ -1,14 +1,16 @@
-#chart-area svg {
-	margin-left: auto;
+ #chart-area svg {
+	margin-left: 10%;
     margin-right: auto;
-    display: block;
+	display: block;
+}
+ 
+.table {
+    width: 100%;
+    max-width: 100%;
+	margin-left: 75%;
+    background-color: transparent;
 }
 
-#logo {
-	height:50px;
-}
-
-.navbar-brand {
-	height: 60px;
-	padding: 5px 0px;
+nav {
+	margin-bottom:5%;
 }
